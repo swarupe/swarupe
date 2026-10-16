@@ -22,7 +22,7 @@
 
 I'm Lead Engineer at the **Centre of Data for Public Good** in Bengaluru. I build backend services, streaming pipelines and data platforms, run the Kubernetes infrastructure under them, and ship the front ends on top. Since Aug 2025 I'm also on the online M.Tech in Data Science and Business Analytics at IISc.
 
-## 🚇 The line map
+## ≡ƒÜç The line map
 
 Every station is something I built. Lines are kinds of work, interchanges are projects that sit on two.
 
@@ -60,57 +60,46 @@ flowchart LR
     linkStyle 4,5,6 stroke:#d9a400,stroke-width:6px
     linkStyle 7,8,9 stroke:#00843d,stroke-width:6px
     linkStyle 10,11,12 stroke:#1c63c7,stroke-width:6px
+```
 
 <p align="center">
-  🟣 <b>Product & UI</b> &nbsp; 🟡 <b>Platform & Infra</b> &nbsp; 🟢 <b>Streaming & Data</b> &nbsp; 🔵 <b>Research</b> &nbsp; 🟠 <b>Interchange</b>
+  ≡ƒƒú <b>Product & UI</b> &nbsp; ≡ƒƒí <b>Platform & Infra</b> &nbsp; ≡ƒƒó <b>Streaming & Data</b> &nbsp; ≡ƒö╡ <b>Research</b> &nbsp; ≡ƒƒá <b>Interchange</b>
 </p>
 
-🛠️ What I've built
+## ≡ƒ¢á∩╕Å What I've built
 
-┌──────┬────────────────────────┬───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
-│      │        Project         │                                                   What it does                                                    │
-├──────┼────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│  🟢  │ IUDX Adaptor Framework │ Flink pipeline that pulls city data, transforms it and streams it into the exchange. I wrote the Calcite SQL      │
-│      │                        │ rules engine over RocksDB state. Top contributor, 178 of 435 commits.                                             │
-├──────┼────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ 🟡🟣 │ IUDX Data Sandbox      │ Jupyter notebooks next to the exchange's datasets. Go API with Keycloak auth, build progress over Server-Sent     │
-│      │                        │ Events, JupyterHub and BinderHub on Kubernetes.                                                                   │
-├──────┼────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│  🟢  │ Analytics at volume    │ ClickHouse clusters holding billions of rows that answer in under a second, fed by Azure Functions and Event      │
-│      │                        │ Hubs.                                                                                                             │
-├──────┼────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│ 🟣🟢 │ Data marketplace file  │ S3 and MinIO multipart uploads, presigned URLs, policy checks, and in-browser Parquet previews through DuckDB.    │
-│      │ service                │                                                                                                                   │
-├──────┼────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│  🟡  │ Multi-kernel notebook  │ Python, R, Julia and Scala in one Jupyter image. Cut the CPU image from 16.1 GB to 8.1 GB and the GPU image from  │
-│      │ images                 │ 38.9 GB to 26.5 GB.                                                                                               │
-├──────┼────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
-│  🟡  │ IUDX Video Server      │ Proxies live camera feeds from city servers behind NAT out to the cloud.                                          │
-└──────┴────────────────────────┴───────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+| | Project | What it does |
+|:-:|---|---|
+| ≡ƒƒó | **IUDX Adaptor Framework** | Flink pipeline that pulls city data, transforms it and streams it into the exchange. I wrote the Calcite SQL rules engine over RocksDB state. Top contributor, 178 of 435 commits. |
+| ≡ƒƒí≡ƒƒú | **IUDX Data Sandbox** | Jupyter notebooks next to the exchange's datasets. Go API with Keycloak auth, build progress over Server-Sent Events, JupyterHub and BinderHub on Kubernetes. |
+| ≡ƒƒó | **Analytics at volume** | ClickHouse clusters holding billions of rows that answer in under a second, fed by Azure Functions and Event Hubs. |
+| ≡ƒƒú≡ƒƒó | **Data marketplace file service** | S3 and MinIO multipart uploads, presigned URLs, policy checks, and in-browser Parquet previews through DuckDB. |
+| ≡ƒƒí | **Multi-kernel notebook images** | Python, R, Julia and Scala in one Jupyter image. Cut the CPU image from 16.1 GB to 8.1 GB and the GPU image from 38.9 GB to 26.5 GB. |
+| ≡ƒƒí | **IUDX Video Server** | Proxies live camera feeds from city servers behind NAT out to the cloud. |
 
 <details>
-<summary><b>📄 Papers</b></summary>
+<summary><b>≡ƒôä Papers</b></summary>
 <br/>
 
-- An Atmospheric Correction Integrated LULC Segmentation Model for High-Resolution Satellite Imagery (https://doi.org/10.1109/InGARSS61818.2024.10984371), IEEE InGARSS 2024
-- Cross Pseudo Supervision Framework for Sparsely Labelled Geospatial Images (https://arxiv.org/abs/2408.02382), arXiv 2024
-- Performance Evaluation of Geospatial Images based on Zarr and Tiff (https://arxiv.org/abs/2411.11291), arXiv 2024
-- Comparison of Segmentation Methods in Remote Sensing for Land Use Land Cover (https://arxiv.org/abs/2507.18099), arXiv 2025
+- [An Atmospheric Correction Integrated LULC Segmentation Model for High-Resolution Satellite Imagery](https://doi.org/10.1109/InGARSS61818.2024.10984371), IEEE InGARSS 2024
+- [Cross Pseudo Supervision Framework for Sparsely Labelled Geospatial Images](https://arxiv.org/abs/2408.02382), arXiv 2024
+- [Performance Evaluation of Geospatial Images based on Zarr and Tiff](https://arxiv.org/abs/2411.11291), arXiv 2024
+- [Comparison of Segmentation Methods in Remote Sensing for Land Use Land Cover](https://arxiv.org/abs/2507.18099), arXiv 2025
 
 </details>
 
 <details>
-<summary><b>🧪 At IISc and in my own workshop</b></summary>
+<summary><b>≡ƒº¬ At IISc and in my own workshop</b></summary>
 <br/>
 
-- Learning What to Remember: which frames should a vision-language model keep from a long video before it knows the question? Reproduced the SimpleStream baseline, then reported honestly that the learned memory did not beat it.
-- GPT-2 on Mizo: fine-tuned GPT-2 on a low-resource language, test perplexity 680 to 22.5.
-- GuideMesh: record a browser workflow, get a product walkthrough that survives code changes (37 of 38 steps still found after 50 commits).
-- videopipe and agent-skills: videos written as code, and 30 skills for Claude Code and Codex.
+- **Learning What to Remember**: which frames should a vision-language model keep from a long video before it knows the question? Reproduced the SimpleStream baseline, then reported honestly that the learned memory did not beat it.
+- **GPT-2 on Mizo**: fine-tuned GPT-2 on a low-resource language, test perplexity 680 to 22.5.
+- **GuideMesh**: record a browser workflow, get a product walkthrough that survives code changes (37 of 38 steps still found after 50 commits).
+- **videopipe** and **agent-skills**: videos written as code, and 30 skills for Claude Code and Codex.
 
 </details>
 
-🧰 Stack
+## ≡ƒº░ Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=go,java,ts,python,nodejs,express,fastapi,graphql&perline=8" alt="Go, Java, TypeScript, Python, Node.js, Express, FastAPI, GraphQL" /><br/>
@@ -129,7 +118,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Vert.x-782A90?style=flat-square" alt="Vert.x" />
 </p>
 
-📈 Activity
+## ≡ƒôê Activity
 
 <p align="center">
   <picture>
@@ -141,8 +130,3 @@ flowchart LR
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=110&amp;section=footer&color=0:00843d,50:1c63c7,100:7b2d8e" alt="" width="100%" />
 </p>
-```
-
-Note: the outer fence above contains a nested mermaid fence. If your editor trips on it, copy from the first <p align="center"> line through the last </p>.
-
-The "swarup.me" badge points to your site, which still shows the old design until redesign is merged into master.
