@@ -5,8 +5,8 @@
 <p align="center">
   <a href="https://swarup.me">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=F2C230&amp;center=true&vCenter=true&width=640&height=40&lines=Lead+Engineer+%40+Centre+of+Data+for+Public+Good;Backend+%C2%B7+DevOps+%C2%B7+Streaming+pipelines+%C2%B7+Data+platforms;Flink+%C2%B7+Kubernetes+%C2%B7+ClickHouse+%C2%B7+Go+%C2%B7+TypeScript;M.Tech+(Online)+%40+IISc+%C2%B7+since+Aug+2025" />
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=7B2D8E&amp;center=true&vCenter=true&width=640&height=40&lines=Lead+Engineer+%40+Centre+of+Data+for+Public+Good;Backend+%C2%B7+DevOps+%C2%B7+Streaming+pipelines+%C2%B7+Data+platforms;Flink+%C2%B7+Kubernetes+%C2%B7+ClickHouse+%C2%B7+Go+%C2%B7+TypeScript;M.Tech+(Online)+%40+IISc+%C2%B7+since+Aug+2025" alt="Lead Engineer at Centre of Data for Public Good. Backend, DevOps, streaming pipelines, data platforms." />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=F2C230&amp;center=true&vCenter=true&width=820&height=40&lines=Lead+Engineer+%40+Centre+of+Data+for+Public+Good;Backend+%C2%B7+DevOps+%C2%B7+Streaming+pipelines+%C2%B7+Data+platforms;Flink+%C2%B7+Kubernetes+%C2%B7+ClickHouse+%C2%B7+Go+%C2%B7+TypeScript;M.Tech+(Online)+%40+IISc+%C2%B7+since+Aug+2025" />
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=3200&pause=900&color=7B2D8E&amp;center=true&vCenter=true&width=820&height=40&lines=Lead+Engineer+%40+Centre+of+Data+for+Public+Good;Backend+%C2%B7+DevOps+%C2%B7+Streaming+pipelines+%C2%B7+Data+platforms;Flink+%C2%B7+Kubernetes+%C2%B7+ClickHouse+%C2%B7+Go+%C2%B7+TypeScript;M.Tech+(Online)+%40+IISc+%C2%B7+since+Aug+2025" alt="Lead Engineer at Centre of Data for Public Good. Backend, DevOps, streaming pipelines, data platforms." />
     </picture>
   </a>
 </p>
@@ -22,7 +22,7 @@
 
 I'm Lead Engineer at the **Centre of Data for Public Good** in Bengaluru. I build backend services, streaming pipelines and data platforms, run the Kubernetes infrastructure under them, and ship the front ends on top. Since Aug 2025 I'm also on the online M.Tech in Data Science and Business Analytics at IISc.
 
-## ≡ƒÜç The line map
+## The line map
 
 Every station is something I built. Lines are kinds of work, interchanges are projects that sit on two.
 
@@ -63,22 +63,26 @@ flowchart LR
 ```
 
 <p align="center">
-  ≡ƒƒú <b>Product & UI</b> &nbsp; ≡ƒƒí <b>Platform & Infra</b> &nbsp; ≡ƒƒó <b>Streaming & Data</b> &nbsp; ≡ƒö╡ <b>Research</b> &nbsp; ≡ƒƒá <b>Interchange</b>
+  <img src="https://img.shields.io/badge/Purple_line-Product_%26_UI-7b2d8e?style=flat-square" alt="Purple line: Product and UI" /> &nbsp;
+  <img src="https://img.shields.io/badge/Yellow_line-Platform_%26_Infra-d9a400?style=flat-square" alt="Yellow line: Platform and Infra" /> &nbsp;
+  <img src="https://img.shields.io/badge/Green_line-Streaming_%26_Data-00843d?style=flat-square" alt="Green line: Streaming and Data" /> &nbsp;
+  <img src="https://img.shields.io/badge/Blue_line-Research-1c63c7?style=flat-square" alt="Blue line: Research" /> &nbsp;
+  <img src="https://img.shields.io/badge/Interchange-two_lines-ffb72b?style=flat-square" alt="Interchange: two lines" />
 </p>
 
-## ≡ƒ¢á∩╕Å What I've built
+## What I've built
 
 | | Project | What it does |
 |:-:|---|---|
-| ≡ƒƒó | **IUDX Adaptor Framework** | Flink pipeline that pulls city data, transforms it and streams it into the exchange. I wrote the Calcite SQL rules engine over RocksDB state. Top contributor, 178 of 435 commits. |
-| ≡ƒƒí≡ƒƒú | **IUDX Data Sandbox** | Jupyter notebooks next to the exchange's datasets. Go API with Keycloak auth, build progress over Server-Sent Events, JupyterHub and BinderHub on Kubernetes. |
-| ≡ƒƒó | **Analytics at volume** | ClickHouse clusters holding billions of rows that answer in under a second, fed by Azure Functions and Event Hubs. |
-| ≡ƒƒú≡ƒƒó | **Data marketplace file service** | S3 and MinIO multipart uploads, presigned URLs, policy checks, and in-browser Parquet previews through DuckDB. |
-| ≡ƒƒí | **Multi-kernel notebook images** | Python, R, Julia and Scala in one Jupyter image. Cut the CPU image from 16.1 GB to 8.1 GB and the GPU image from 38.9 GB to 26.5 GB. |
-| ≡ƒƒí | **IUDX Video Server** | Proxies live camera feeds from city servers behind NAT out to the cloud. |
+| <img src="https://img.shields.io/badge/Green-00843d?style=flat-square" alt="Green" /> | **IUDX Adaptor Framework** | Flink pipeline that pulls city data, transforms it and streams it into the exchange. I wrote the Calcite SQL rules engine over RocksDB state. Top contributor, 178 of 435 commits. |
+| <img src="https://img.shields.io/badge/Yellow-d9a400?style=flat-square" alt="Yellow" /> <img src="https://img.shields.io/badge/Purple-7b2d8e?style=flat-square" alt="Purple" /> | **IUDX Data Sandbox** | Jupyter notebooks next to the exchange's datasets. Go API with Keycloak auth, build progress over Server-Sent Events, JupyterHub and BinderHub on Kubernetes. |
+| <img src="https://img.shields.io/badge/Green-00843d?style=flat-square" alt="Green" /> | **Analytics at volume** | ClickHouse clusters holding billions of rows that answer in under a second, fed by Azure Functions and Event Hubs. |
+| <img src="https://img.shields.io/badge/Purple-7b2d8e?style=flat-square" alt="Purple" /> <img src="https://img.shields.io/badge/Green-00843d?style=flat-square" alt="Green" /> | **Data marketplace file service** | S3 and MinIO multipart uploads, presigned URLs, policy checks, and in-browser Parquet previews through DuckDB. |
+| <img src="https://img.shields.io/badge/Yellow-d9a400?style=flat-square" alt="Yellow" /> | **Multi-kernel notebook images** | Python, R, Julia and Scala in one Jupyter image. Cut the CPU image from 16.1 GB to 8.1 GB and the GPU image from 38.9 GB to 26.5 GB. |
+| <img src="https://img.shields.io/badge/Yellow-d9a400?style=flat-square" alt="Yellow" /> | **IUDX Video Server** | Proxies live camera feeds from city servers behind NAT out to the cloud. |
 
 <details>
-<summary><b>≡ƒôä Papers</b></summary>
+<summary><b>Papers</b></summary>
 <br/>
 
 - [An Atmospheric Correction Integrated LULC Segmentation Model for High-Resolution Satellite Imagery](https://doi.org/10.1109/InGARSS61818.2024.10984371), IEEE InGARSS 2024
@@ -89,7 +93,7 @@ flowchart LR
 </details>
 
 <details>
-<summary><b>≡ƒº¬ At IISc and in my own workshop</b></summary>
+<summary><b>At IISc and in my own workshop</b></summary>
 <br/>
 
 - **Learning What to Remember**: which frames should a vision-language model keep from a long video before it knows the question? Reproduced the SimpleStream baseline, then reported honestly that the learned memory did not beat it.
@@ -99,7 +103,7 @@ flowchart LR
 
 </details>
 
-## ≡ƒº░ Stack
+## Stack
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=go,java,ts,python,nodejs,express,fastapi,graphql&perline=8" alt="Go, Java, TypeScript, Python, Node.js, Express, FastAPI, GraphQL" /><br/>
@@ -118,7 +122,7 @@ flowchart LR
   <img src="https://img.shields.io/badge/Vert.x-782A90?style=flat-square" alt="Vert.x" />
 </p>
 
-## ≡ƒôê Activity
+## Activity
 
 <p align="center">
   <picture>
