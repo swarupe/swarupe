@@ -10,8 +10,8 @@
 <p align="center">
   <a href="https://swarup.me">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=800&color=FFB054&amp;center=true&vCenter=true&width=820&height=40&lines=%24+swc+swarup.src+--release;Probing+20+targets+..........+ok;Compiling+backend%2C+devops%2C+data%2C+frontend%2C+research%2C+side;Removing+dead+%7B+2017%2C+2018+%7D;Running+.%2Fswarup.bin" />
-      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=800&color=B8640F&amp;center=true&vCenter=true&width=820&height=40&lines=%24+swc+swarup.src+--release;Probing+20+targets+..........+ok;Compiling+backend%2C+devops%2C+data%2C+frontend%2C+research%2C+side;Removing+dead+%7B+2017%2C+2018+%7D;Running+.%2Fswarup.bin" alt="$ swc swarup.src --release. Compiling backend, devops, data, frontend, research, side. Running ./swarup.bin" />
+      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=800&color=FFB054&amp;center=true&vCenter=true&width=820&height=40&lines=%24+swc+swarup.src+--release;Probing+20+targets+..........+ok;Compiling+backend%2C+devops%2C+data%2C+frontend%2C+research%2C+side;Optimizing+notebook+images+16.1+GB+to+8.1+GB;Running+.%2Fswarup.bin" />
+      <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2600&pause=800&color=B8640F&amp;center=true&vCenter=true&width=820&height=40&lines=%24+swc+swarup.src+--release;Probing+20+targets+..........+ok;Compiling+backend%2C+devops%2C+data%2C+frontend%2C+research%2C+side;Optimizing+notebook+images+16.1+GB+to+8.1+GB;Running+.%2Fswarup.bin" alt="$ swc swarup.src --release. Compiling backend, devops, data, frontend, research, side. Running ./swarup.bin" />
     </picture>
   </a>
 </p>
@@ -41,11 +41,6 @@ module swarup_e {
   areas = [backend, devops, data,
            frontend, research, side]
 
-  dead {  // unreachable
-    student_projects(2017)
-    student_projects(2018)
-  }
-
   fn ship(idea) -> system {
     idea |> build |> run |> observe
   }
@@ -65,7 +60,7 @@ $ swc swarup.src --release
             frontend (3 units)
             research (3 units)
             side projects (3 units)
-  Removing  dead { 2017, 2018 }
+Optimizing  notebook images  16.1 GB -> 8.1 GB
   Finished  release [optimized]
    Running  ./swarup.bin
 ```
